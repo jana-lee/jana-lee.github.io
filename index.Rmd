@@ -11,4 +11,4 @@ output:
 
 ![](https://media.giphy.com/media/drXGoW1iudhKw/giphy.gif)
 
-I often use [google](google.com) to do data science.
+I often use [google](https://google.com) to do data science.
