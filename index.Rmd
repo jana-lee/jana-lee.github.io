@@ -10,5 +10,12 @@ output:
 # This is Jana's awesome website
 
 ![](https://media.giphy.com/media/drXGoW1iudhKw/giphy.gif)
-
+## Adding links
 I often use [google](https://google.com) to do data science.
+
+## Adding an image
+## let's add an image
+Ellie and Earl
+
+![](images/EE.jpg)
+
