@@ -1,13 +1,14 @@
 ---
-title: "My awesome website"
+title: "About me"
 output: 
   html_document:
     toc: true
     toc_float: true
-    theme: cerulean
 ---
 
 # This is Jana's awesome website
+
+You can learn about me [here] (about.html).
 
 ![](https://media.giphy.com/media/drXGoW1iudhKw/giphy.gif)
 ## Adding links
