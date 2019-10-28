@@ -14,8 +14,7 @@ output:
 I often use [google](https://google.com) to do data science.
 
 ## Adding an image
-## let's add an image
-Ellie and Earl
+Ellie and Earl:
 
-![](images/EE.jpg)
+![](images/EE.png)
 
