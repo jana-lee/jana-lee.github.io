@@ -1,24 +1,21 @@
 ---
-title: "Plotly Examples"
+title: "My first dashboard"
 output: 
-  html_document:
-    code_folding: hide
-    toc: true
-    toc_float: true
+  flexdashboard::flex_dashboard:
+    orientation: columns
+    vertical_layout: fill
 ---
-```{r}
+
+```{r setup, include=FALSE}
 library(tidyverse)
 library(viridis)
 library(p8105.datasets)
-
-
 library(plotly)
+library(flexdashboard)
 ```
 
-
-My name is Jana and I make websites _with interactive graphics_ !!!
-
-## Let's make some plots
+Column {data-width=650}
+-----------------------------------------------------------------------
 ```{r}
 set.seed(1)
 
@@ -35,8 +32,10 @@ nyc_airbnb =
   sample_n(5000)
 ```
 
-Plotly demonstration: tilda is the notation that plotly uses.
+### Chart A
+
 ```{r}
+
 nyc_airbnb %>%
   mutate(text_label = str_c("Price: $", price, '\nRating: ', rating)) %>% 
   plot_ly(
@@ -44,6 +43,10 @@ nyc_airbnb %>%
     color = ~price, text = ~text_label, alpha = 0.5)
 ```
 
+Column {data-width=350}
+-----------------------------------------------------------------------
+
+### Chart B
 
 ```{r}
 nyc_airbnb %>% 
@@ -52,17 +55,12 @@ nyc_airbnb %>%
   plot_ly(x = ~neighbourhood, y = ~n, color = ~neighbourhood, type = "bar", colors = "Set2")
 ```
 
+### Chart C
 
 ```{r}
-box_ggplot = 
-  inner_join(nyc_airbnb, common_neighborhoods,
-             by = "neighbourhood") %>% 
-  mutate(neighbourhood = fct_reorder(neighbourhood, price)) %>% 
-  ggplot(aes(x = neighbourhood, y = price, fill = neighbourhood)) +
-  geom_boxplot() +
-  theme_classic() + 
-  theme(axis.text.x = element_text(angle = 90, hjust = 1))
-
-ggplotly(box_ggplot)
+nyc_airbnb %>% 
+  count(neighbourhood) %>% 
+  mutate(neighbourhood = fct_reorder(neighbourhood, n)) %>% 
+  plot_ly(x = ~neighbourhood, y = ~n, color = ~neighbourhood, type = "bar")
 ```
 
