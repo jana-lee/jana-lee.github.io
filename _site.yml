@@ -5,12 +5,14 @@ navbar:
   right:
     - text: "About"
       href: about.html
-    - text: "Plotly"
-      href: plotly.html
-    - icon: fa-envelope fa-lg
-      href: mailto:<jana.lee@columbia.edu>
+    - text: "Dashboard"
+      href: dashboard.html
     - icon: fa-github fa-lg
       href: http://github.com/jana-lee/
+    - icon: fab fa-linkedin
+      href: https://www.linkedin.com/in/leejana/
+    - icon: fa-envelope fa-lg
+      href: mailto:<jana.lee@columbia.edu>
 output:
   html_document:
     theme: journal

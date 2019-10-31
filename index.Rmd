@@ -1,21 +1,17 @@
 ---
-title: "About me"
+title: "Jana M. Lee"
 output: 
   html_document:
     toc: true
     toc_float: true
 ---
+![](images/Jana_granada.jpg)
 
-# This is Jana's awesome website
+# Bio <br>
+Hello, and thanks for stopping by! <br>
 
-You can learn about me [here] (about.html).
+My name is Jana. I am passionate about leveraging big data in order to make meaningful business decisions. Originally from the Bay Area, I am currently living in New York City, pursuing my Master of Public Health in Epidemiology & Applied Biostatistics at Columbia University. I am a health advocate passionate about the intersection of technology, clinical analytics, and strategy. <br>
 
-![](https://media.giphy.com/media/drXGoW1iudhKw/giphy.gif)
-## Adding links
-I often use [google](https://google.com) to do data science.
+In my spare time, I am an avid [Yelp Elite reviewer](https://lalalajanaaa.yelp.com/), a mother of two adorable mini-lop bunnies, [Ellie and Earl Grey 🐰🐰](https://www.instagram.com/ellieandearlgrey/), singles tennis player, and loyal patron of the New York Public Library. <br>
 
-## Adding an image
-Ellie and Earl:
-
-![](images/EE.png)
 

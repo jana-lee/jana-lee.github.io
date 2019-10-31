@@ -1,0 +1,97 @@
+---
+title: "Plotly Examples"
+output: 
+  html_document:
+    code_folding: hide
+    toc: true
+    toc_float: true
+---
+```{r, include = FALSE}
+library(tidyverse)
+library(viridis)
+library(p8105.datasets)
+library(plotly)
+library(flexdashboard)
+
+knitr::opts_chunk$set(
+	echo = TRUE,
+	warning = FALSE,
+	fig.width = 8, 
+  fig.height = 6,
+  out.width = "90%"
+)
+options(
+  ggplot2.continuous.colour = "viridis",
+  ggplot2.continuous.fill = "viridis"
+)
+scale_colour_discrete = scale_colour_viridis_d
+scale_fill_discrete = scale_fill_viridis_d
+theme_set(theme_minimal() + theme(legend.position = "bottom"))
+```
+
+Create a flexdashboard using plotly for that includes at least three distinct plot types (e.g. scatterplots, line plots, bar plots, box plots, etc.). Use one of the following datasets, and load from the p8105.datasets package:
+
+Instacart
+NY NOAA
+NYC Restaurant Inspections
+These datasets are large; you may want / need to filter or randomly sample from the complete dataset to ensure a reasonable product
+```{r}
+set.seed(5)
+
+data("rest_inspec") 
+
+rest_inspec = 
+  rest_inspec %>% 
+  filter(grade %in% c("A", "B", "C"), boro != "Missing") %>%
+  sample_n(5000)
+
+```
+
+
+## Boxplot: Graph of Inspection Scores by NYC Boroughs
+```{r}
+rest_inspec %>% 
+  plot_ly(
+    y = ~score, 
+    color = ~boro, 
+    type = "box",
+    colors = "Set1") %>% 
+  layout(
+    title = "Distribution of Restaurant Inspection Scores by NYC Borough",
+    xaxis = list(title = "NYC Borough"), 
+    yaxis = list(title = "Restaurant Inspection Score"))
+```
+
+
+## Bar Graph: Distribution of Restaurant Grades A-C
+```{r}
+rest_inspec %>% 
+  count(grade) %>% 
+  mutate(grade = fct_reorder(grade, n, .desc = TRUE)) %>% 
+  plot_ly(x = ~grade, 
+          y = ~n, 
+          color = ~grade,
+          type = "bar") %>% 
+  
+  layout(
+    title = "Distribution of Restaurant Grades A-C",
+    xaxis = list(title = "Restaurant Grade"), 
+    yaxis = list(title = "Number of Restaurants"))
+```
+
+
+## Graph 3
+```{r}
+rest_inspec %>% 
+  group_by(., zipcode) %>%
+  summarise(., value=mean(score)) %>%
+  rename(., region=zipcode) 
+
+
+
+
+```
+
+
+
+

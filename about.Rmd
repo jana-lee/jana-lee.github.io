@@ -5,6 +5,74 @@ output:
     toc: true
     toc_float: true
 ---
+![](images/Jana_headshot_circle.jpg)
 
-My name is Jana and I make websites!!
+# Academic & Professional Experience <br> <br>
 
+## Education
+**Columbia University, Mailman School of Public Health** <br>
+Master of Public Health, Epidemiology & Applied Biostatistics <br>
+Expected Graduation: May 2020 <br>
+
+**Santa Clara University** <br>
+Bachelor of Science, Public Health Science (Minors: Biology & Communication) <br>
+June 2016 <br> <br>
+
+## Relevant Experience
+**Global Real World Data – Strategy, Analytics, and Insights Intern** <br>
+**Pfizer, Inc. (New York, NY)** <br> 
+_June 2019 – Present_ <br> 
+
+•	Conducted a needs assessment with internal stakeholders identifying business needs, challenges, and opportunities that could be addressed using real world data <br>
+•	Paired the needs of Pfizer stakeholders with the capabilities that current real world data vendors offered <br> 
+•	Managed real world data partnerships for analytical platforms, scaling the use of real world data within Pfizer <br> <br>
+
+**Senior Research Analyst, Policy & Access Tracking Tool / Client Services Group** <br> 
+**Zitter Health Insights (San Francisco, CA)** <br> 
+_September 2017 – May 2018_ <br>
+•	Conducted ad-hoc policy analyses for clients and incorporated feedback with quick turnarounds, leading to client extensions of current subscriptions <br>
+•	Delivered strategic insights based on significant market updates among the Commercial payer landscape, enhancing client understanding and engagement with respective product line services <br>
+•	Trained research analysts across SF, NJ, and India offices about reporting techniques and quality checking mechanisms that improved data collection processes <br> <br>
+
+**Research Analyst, Policy & Access Tracking Tool** <br>
+**Zitter Health Insights (San Francisco, CA)** <br>
+_July 2016 – August 2017_ <br>
+•	Researched payer prior authorization policies for specialty drugs in 10+ therapeutic areas, deriving key findings that enabled top 20 pharmaceuticals to understand competitive markets <br>
+•	Tracked over 200 health insurance policies across Commercial, Medicare, Medicaid, and State Medicaid segments, leading to 2x faster data collection <br>
+•	Principal analyst of two newly launched drugs in the Multiple Sclerosis and Hemophilia landscapes, leading to client internal distribution of the deliverable <br> <br>
+
+
+**Global Social Benefit Fellow** <br>
+**Miller Center for Social Entrepreneurship (Santa Clara, CA)** <br>
+_March 2015 – November 2015_ <br>
+•	Selected as 1 of 18 fellows among the third-year class for a fully funded social entrepreneurship fellowship <br>
+•	Conducted two research studies from start to finish, surveying over 100 patients with cataracts to determine the positive impact of free cataracts surgeries on quality of life <br>
+•	Measure economic, cultural, and career aspirations of young women selected for a nursing technician program <br> <br>
+
+## Awards & Presentations
+**Evaluating and Scaling Real World Data in Public Health** <br>
+Columbia University, Mailman School of Public Health <br>
+October 2019
+
+**The Public Health Senior Prize** <br>
+Santa Clara University <br>
+May 2016
+
+**Dean's List 2014-2016**
+Santa Clara University <br> <br>
+
+## Selected Publications
+Hesse, C., Floyd, K., Boren, J. P., **Lee, J.** M., & Holland, C. F. (2018, February). _Affectionate communication and testosterone_. Top paper presented to Western States Communication Association, Santa Clara, CA.
+
+[Empowering Women: The Social Impact of Vision Care Technician Training](https://www.globalsocialbenefit.institute/pdf/VisionCareTechnicianAssessment.pdf) <br>
+Miller Center for Social Entrepreneurship <br>
+November 2015
+
+[Compassionate Efficiency: A Study of Sankara Eye Foundation India's Gift of Vision Program](https://www.globalsocialbenefit.institute/pdf/GiftofVisonImpactAssessment.pdf) <br>
+Miller Center for Social Entrepreneurship <br>
+November 2015 <br> <br>
+
+## Skills
+•	Software: Microsoft Office (Word, Excel, PowerPoint), Google Suite, SAS, R <br>
+•	Foreign languages: Intermediate Mandarin and Cantonese speaking proficiency <br>
+•	Certifications: CITI Human Subjects Protection and HIPAA Patient Privacy <br>
