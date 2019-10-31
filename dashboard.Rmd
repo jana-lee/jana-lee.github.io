@@ -39,7 +39,7 @@ rest_inspec =
 ```
 
 
-Column {data-width=650}
+Column {data-width=550}
 -----------------------------------------------------------------------
 
 ### Bar Graph: Distribution of Restaurant Grades A-C
@@ -58,7 +58,7 @@ rest_inspec %>%
     yaxis = list(title = "Number of Restaurants"))
 ```
 
-Column {data-width=350}
+Column {data-width=450}
 -----------------------------------------------------------------------
 
 ### Boxplot: Graph of Inspection Scores by NYC Boroughs
