@@ -5,7 +5,7 @@ output:
     toc: true
     toc_float: true
 ---
-![](images/Jana_headshot_circle.jpg)
+![](images/Jana_headshot_circle.jpg){width=300px}
 
 # Academic & Professional Experience <br> <br>
 
