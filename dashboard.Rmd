@@ -42,7 +42,7 @@ rest_inspec =
 Column {data-width=550}
 -----------------------------------------------------------------------
 
-### Bar Graph: Distribution of Restaurant Grades A-C
+### Bar Graph: Distribution of Restaurant Grades A, B, & C
 
 ```{r}
 rest_inspec %>% 
@@ -76,7 +76,10 @@ rest_inspec %>%
     yaxis = list(title = "Restaurant Inspection Score"))
 ```
 
-### Distribution of Restaurant Grades by Borough
+Column {data-width=450}
+-----------------------------------------------------------------------
+
+### Dot Plot: Distribution of Restaurant Grades by Borough
 
 ```{r}
 inspection_grades = 
