@@ -38,10 +38,30 @@ rest_inspec =
   sample_n(5000)
 ```
 
+
 Column {data-width=650}
 -----------------------------------------------------------------------
 
-### Chart A
+### Bar Graph: Distribution of Restaurant Grades A-C
+
+```{r}
+rest_inspec %>% 
+  count(grade) %>% 
+  mutate(grade = fct_reorder(grade, n, .desc = TRUE)) %>% 
+  plot_ly(x = ~grade, 
+          y = ~n, 
+          color = ~grade,
+          type = "bar") %>% 
+  layout(
+    title = "Distribution of Restaurant Grades: A, B, and C",
+    xaxis = list(title = "Restaurant Grade"), 
+    yaxis = list(title = "Number of Restaurants"))
+```
+
+Column {data-width=350}
+-----------------------------------------------------------------------
+
+### Boxplot: Graph of Inspection Scores by NYC Boroughs
 
 ```{r}
 rest_inspec %>% 
@@ -56,29 +76,25 @@ rest_inspec %>%
     yaxis = list(title = "Restaurant Inspection Score"))
 ```
 
-Column {data-width=350}
------------------------------------------------------------------------
-
-### Chart B
+### Distribution of Restaurant Grades by Borough
 
 ```{r}
-rest_inspec %>% 
-  count(grade) %>% 
-  mutate(grade = fct_reorder(grade, n, .desc = TRUE)) %>% 
-  plot_ly(x = ~grade, 
-          y = ~n, 
-          color = ~grade,
-          type = "bar") %>% 
-  
+inspection_grades = 
+  rest_inspec %>%
+  mutate(text_label = str_c("Score", score, 'Grade', grade, sep = " ")) %>% 
+  plot_ly(
+    x = ~ score, 
+    y = ~ boro,  
+    type = "scatter", 
+    mode = "markers",
+    color = ~grade, 
+    text = ~text_label, 
+    alpha = 0.5) %>% 
   layout(
-    title = "Distribution of Restaurant Grades A-C",
-    xaxis = list(title = "Restaurant Grade"), 
-    yaxis = list(title = "Number of Restaurants"))
-```
+    title = "Distribution of Restaurant Grades by Borough",
+    xaxis = list(title = "Restaurant Scores"), 
+    yaxis = list(title = "NYC Borough"))
 
-### Chart C
-
-```{r}
-
+inspection_grades
 ```
 
