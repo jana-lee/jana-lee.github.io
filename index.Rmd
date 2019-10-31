@@ -7,7 +7,7 @@ output:
 ---
 ![](images/Jana_granada.jpg)
 
-# Bio <br>
+# Me in 101 Words <br>
 Hello, and thanks for stopping by! <br>
 
 My name is Jana. I am passionate about leveraging big data in order to make meaningful business decisions. Originally from the Bay Area, I am currently living in New York City, pursuing my Master of Public Health in Epidemiology & Applied Biostatistics at Columbia University. I am a health advocate passionate about the intersection of technology, clinical analytics, and strategy. <br>
