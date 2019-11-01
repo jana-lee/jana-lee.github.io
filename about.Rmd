@@ -7,7 +7,7 @@ output:
 ---
 ![](images/Jana_headshot_circle.jpg){width=300px}
 
-# Academic & Professional Experience <br> <br>
+# Academic & Professional Experience <br>
 
 ## Education
 **Columbia University, Mailman School of Public Health** <br>

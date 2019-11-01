@@ -97,7 +97,5 @@ inspection_grades =
     title = "Distribution of Restaurant Grades by Borough",
     xaxis = list(title = "Restaurant Scores"), 
     yaxis = list(title = "NYC Borough"))
-
-inspection_grades
 ```
 
