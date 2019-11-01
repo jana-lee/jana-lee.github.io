@@ -38,7 +38,7 @@ rest_inspec =
   sample_n(5000)
 ```
 
-Count {width = 300}
+
 -----------------------------------------------------------------------
 
 ### Bar Graph: Distribution of Restaurant Grades A, B, & C
@@ -57,7 +57,7 @@ rest_inspec %>%
     yaxis = list(title = "Number of Restaurants"))
 ```
 
-Count {width = 300}
+
 
 -----------------------------------------------------------------------
 
@@ -76,7 +76,7 @@ rest_inspec %>%
     yaxis = list(title = "Restaurant Inspection Score"))
 ```
 
-Count {width = 300}
+
 -----------------------------------------------------------------------
 
 ### Dot Plot: Distribution of Restaurant Grades by Borough
